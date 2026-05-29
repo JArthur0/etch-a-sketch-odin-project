@@ -1,0 +1,35 @@
+body,html{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#canvas{
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    height: 90vh;
+}
+.row{
+    display: flex;
+    flex-basis: 50px;
+}
+.col{
+   border: 1px solid black;
+   flex-basis: 50px;
+   flex-grow: 1;
+}
+.over{
+    background-color: black;
+}
+#new-sketch{
+    display: flex;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
