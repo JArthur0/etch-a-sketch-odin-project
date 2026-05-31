@@ -17,6 +17,7 @@ main{
 .row{
     display: flex;
     flex-basis: 50px;
+    flex-grow: 1;
 }
 .col{
    border: 1px solid black;
