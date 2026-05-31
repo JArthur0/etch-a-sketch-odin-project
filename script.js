@@ -19,7 +19,6 @@ newBoardButton.addEventListener("click", () => {
 
 
 canvas.addEventListener("mouseover", function (e) {
-    console.log(document.getElementById(main))
     if (e.target.className === "col") {
         let opacity = 0;
         let r = Math.floor(Math.random() * 255);
