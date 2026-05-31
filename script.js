@@ -1,7 +1,6 @@
 const canvas = document.getElementById("canvas");
 const newBoardButton = document.getElementById("new-sketch");
-const row = document.querySelectorAll(".row");
-const col = document.querySelectorAll(".col");
+
 let boardSize = 16;
 
 createBoard(boardSize);
