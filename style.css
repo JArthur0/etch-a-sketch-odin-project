@@ -23,9 +23,6 @@ main{
    flex-basis: 50px;
    flex-grow: 1;
 }
-.over{
-    background-color: black;
-}
 #new-sketch{
     display: flex;
     width: fit-content;
